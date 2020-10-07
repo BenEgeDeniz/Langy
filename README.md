@@ -1,8 +1,4 @@
 # Langy
-A simple PHP language management class.
-
-## Installation
-# Langy
 
 A simple PHP language management class.
 
