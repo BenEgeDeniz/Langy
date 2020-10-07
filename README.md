@@ -39,7 +39,7 @@ A simple PHP language management class.
 		    <h1><?php echo $lang->echo("pageContent->header"); ?></h1>
 		    <h3>Langy developer: <?php echo $lang->echo("pageContent->classAuthor"); ?></h3><br>
 		    <h2>An example text: <?php $lang->echo("pageContent->helloLangy->helloMsg"); // Echoing a language items child item from the language file. ?></h2>
-		    <h2>An example text using variables: <?php echo $lang->echo("pageContent->helloLangy->helloMsgWithVars", ['iamavariable' => "Langy"]); // Echoing a language item from the language file but with assigning variables. You must assign variables in this format: "{%variable_name%}". ?></h2>
+		    <h2>An example text using variables: <?php echo $lang->echo("pageContent->helloLangy->helloMsgWithVars", ['iamavariable' => "Langy"]); // Echoing a language item from the language file but with assigning variables. You must add variables to the language files in this format: "{%variable_name%}". ?></h2>
 	  </center>
     </body>
     </html>
