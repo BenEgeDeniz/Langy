@@ -12,11 +12,6 @@ A simple PHP language management class.
  - PHP 5.6 and upper.
 
 
-## Installation
-
- 1. Download the newest release from GitHub.
- 2. Directly put "langy" named folder to somewhere that you can easily access.
-
 ## Usage
 
     <?php
