@@ -1,0 +1,13 @@
+{
+	"title": "Langy - Welcome",
+	"pageContent":
+	{
+		"header": "Langy - A simple PHP language class",
+		"classAuthor": "TimberLock (benegedeniz.com)",
+		"helloLangy":
+		{
+			"helloMsg": "Hello! This is Langy! If you see this, Langy works perfectly well.",
+			"helloMsgWithVars": "Hello! This is {%iamavariable%}! If you see this, Langy works perfectly well."
+		}
+	}
+}
