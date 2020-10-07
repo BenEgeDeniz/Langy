@@ -21,12 +21,12 @@ A simple PHP language management class.
 
     <?php
 
-    require_once __DIR__ . "/langy.php"; // Requireing Langy.
+    require_once __DIR__ . "/langy.php"; // Requiring Langy.
 
     $lang = new Langy;
 
-    $lang->setLangDir("langy/languages"); // Set the folder that contains language files. (Language files must be ".lang" extension and must be in JSON format. See "languages/en.langy" for example.) 
-    $lang->setLang("en"); // Set language. (This must be the name of the desired language file. Exclude extension.)
+    $lang->setLangDir("langy/languages"); // Seting the folder that contains language files. (Language files must be ".lang" extension and must be in JSON format. See "languages/en.langy" for example.) 
+    $lang->setLang("en"); // Setting the language. (This must be the name of the desired language file. Exclude extension.)
 
     ?>
     <!DOCTYPE html>
