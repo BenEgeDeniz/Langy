@@ -5,7 +5,7 @@ A simple PHP language management class.
 
 ## Requirements
 
- - PHP 5.6 and upper.
+ - PHP 7 or upper.
 
 
 ## Usage
