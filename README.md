@@ -49,4 +49,4 @@ A simple PHP language management class.
 
 ## License
 
-### [](https://github.com/BenEgeDeniz/tckn-validation#this-class-licensed-with-cc-by-nc-nd-40-see-httpscreativecommonsorglicensesby-nc-nd40)This class is licensed with CC BY-NC-ND 4.0 (See:  [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/))
+### This class is licensed with CC BY-NC-ND 4.0 (See:  [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/))
