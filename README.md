@@ -12,12 +12,18 @@ A simple PHP language management class.
 
     <?php
 
-    require_once __DIR__ . "/langy.php"; // Requiring Langy.
+    require_once __DIR__ . "/src/langy.php"; // Requiring Langy.
 
     $lang = new Langy;
 
-    $lang->setLangDir("langy/languages"); // Seting the folder that contains language files. (Language files must be ".lang" extension and must be in JSON format. See "languages/en.langy" for example.) 
-    $lang->setLang("en"); // Setting the language. (This must be the name of the desired language file. Exclude extension.)
+    // Setting the language file extension. (If you don't set it, this will default to "langy".)
+    $lang->setLangExt("langy");
+
+    // Setting the folder that contains language files. (Language files must end with the extension you set and must be in JSON format.) 
+    $lang->setLangDir("languages"); 
+
+    // Setting the language. (This must be the name of the desired language file. Exclude extension.)
+    $lang->setLang("en"); 
 
     ?>
     <!DOCTYPE html>
@@ -26,16 +32,21 @@ A simple PHP language management class.
 	    <title><?php echo $lang->echo("title"); // Echoing a language item from the language file. ?></title>
     </head>
     <body>
-	    <center>
-		    <h1><?php echo $lang->echo("pageContent->header"); ?></h1>
-		    <h3>Langy developer: <?php echo $lang->echo("pageContent->classAuthor"); ?></h3><br>
-		    <h2>An example text: <?php $lang->echo("pageContent->helloLangy->helloMsg"); // Echoing a language items child item from the language file. ?></h2>
-		    <h2>An example text using variables: <?php echo $lang->echo("pageContent->helloLangy->helloMsgWithVars", ['iamavariable' => "Langy"]); // Echoing a language item from the language file but with assigning variables. You must add variables to the language files in this format: "{%variable_name%}". ?></h2>
-	  </center>
+        <div style="text-align:center">
+            <h1><?php 
+                // Assigning language item to variable.
+                $text = $lang->get("pageContent->header");
+                echo $text;
+            ?>
+            </h1>
+            <h3>Langy developer: <?php $lang->echo("pageContent->classAuthor"); ?></h3><br>
+            <h2>An example text: <?php $lang->echo("pageContent->helloLangy->helloMsg"); ?></h2>
+            <h2>An example text with using variables: <?php $lang->echo("pageContent->helloLangy->helloMsgWithVars", ["iamavariable" => "Langy"]); ?></h2>
+    </div>
     </body>
     </html>
 
 
 ## License
 
-### [](https://github.com/BenEgeDeniz/tckn-validation#this-class-licensed-with-cc-by-nc-nd-40-see-httpscreativecommonsorglicensesby-nc-nd40)This class is licensed with CC BY-NC-ND 4.0 (See:  [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/))
+### This class is licensed with CC BY-NC-ND 4.0 (See:  [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/))
