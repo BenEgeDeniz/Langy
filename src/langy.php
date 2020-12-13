@@ -37,7 +37,7 @@ class Langy
 	{
 		$val = null;
 
-		$path = explode('->', $path_str);
+		$path = explode('.', $path_str);
 		unset($path_str);
 
 		$filePath = realpath($this->langDir);
