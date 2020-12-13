@@ -8,7 +8,7 @@ A simple PHP language management class.
 
  - PHP 7 or upper.
 
-# Installation
+## Installation
 
 If you are using [Composer](https://getcomposer.org/), you can run the following command:
 
