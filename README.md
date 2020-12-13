@@ -12,8 +12,7 @@ A simple PHP language management class.
 
  1. Composer (recommended)
  
-
-    composer require benegedeniz/langy
+ > composer require benegedeniz/langy
 
  3. Direct include (src/langy.php)
 
