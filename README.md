@@ -10,17 +10,13 @@ A simple PHP language management class.
 
 ## Installation
 
- 1. Composer (recommended)
- 
- > composer require benegedeniz/langy
-
- 3. Direct include (src/langy.php)
+    composer require benegedeniz/langy
 
 ## Usage
 
     <?php
 
-    require_once __DIR__ . "/src/langy.php"; // Requiring Langy.
+    require "vendor/autoloader.php"; // Requiring Langy (!Composer autoloader!).
 
     $lang = new Langy;
 
