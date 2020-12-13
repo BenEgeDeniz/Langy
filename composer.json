@@ -4,7 +4,7 @@
     "description": "Simple yet powerful PHP language management class.",
     "keywords": ["php language","langy","language management class","language engine"],
     "homepage": "https://github.com/BenEgeDeniz/Langy",
-    "license": "CC BY-NC-ND 4.0",
+    "license": "CC-BY-NC-ND-4.0",
     "authors": [
         {
             "name": "Ege Deniz",
