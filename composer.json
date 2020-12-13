@@ -1,5 +1,5 @@
 {
-    "name": "BenEgeDeniz/langy",
+    "name": "benegedeniz/langy",
     "type": "library",
     "description": "Simple yet powerful PHP language management class.",
     "keywords": ["php language","langy","language management class","language engine"],
