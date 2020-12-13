@@ -21,4 +21,5 @@
             "Langy": "src"
         }
     }
+    "minimum-stability": "dev"
 }
