@@ -1,3 +1,4 @@
+
 # Langy
 
 A simple PHP language management class.
@@ -7,6 +8,14 @@ A simple PHP language management class.
 
  - PHP 7 or upper.
 
+## Installation
+
+ 1. Composer (recommended)
+ 
+
+    composer require benegedeniz/langy
+
+ 3. Direct include (src/langy.php)
 
 ## Usage
 
