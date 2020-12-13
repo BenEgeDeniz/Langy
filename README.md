@@ -35,13 +35,13 @@ A simple PHP language management class.
         <div style="text-align:center">
             <h1><?php 
                 // Assigning language item to variable.
-                $text = $lang->get("pageContent->header");
+                $text = $lang->get("pageContent.header");
                 echo $text;
             ?>
             </h1>
-            <h3>Langy developer: <?php $lang->echo("pageContent->classAuthor"); ?></h3><br>
-            <h2>An example text: <?php $lang->echo("pageContent->helloLangy->helloMsg"); ?></h2>
-            <h2>An example text with using variables: <?php $lang->echo("pageContent->helloLangy->helloMsgWithVars", ["iamavariable" => "Langy"]); ?></h2>
+            <h3>Langy developer: <?php $lang->echo("pageContent.classAuthor"); ?></h3><br>
+            <h2>An example text: <?php $lang->echo("pageContent.helloLangy.helloMsg"); ?></h2>
+            <h2>An example text with using variables: <?php $lang->echo("pageContent.helloLangy.helloMsgWithVars", ["iamavariable" => "Langy"]); ?></h2>
     </div>
     </body>
     </html>
