@@ -8,15 +8,21 @@ A simple PHP language management class.
 
  - PHP 7 or upper.
 
-## Installation
+# Installation
 
-    composer require benegedeniz/langy
+If you are using [Composer](https://getcomposer.org/), you can run the following command:
+
+```
+composer require benegedeniz/langy
+```
+
+Or [download](https://github.com/BenEgeDeniz/Langy/releases) Langy directly and extract them to your web directory.
 
 ## Usage
 
     <?php
 
-    require "vendor/autoloader.php"; // Requiring Langy (!Composer autoloader!).
+    require "src/langy.php"; // Requiring Langy.
 
     $lang = new Langy;
 
