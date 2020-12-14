@@ -22,7 +22,7 @@ Or [download](https://github.com/BenEgeDeniz/Langy/releases) Langy directly and 
 
     <?php
 
-    require "src/langy.php"; // Requiring Langy.
+    require_once __DIR__ . "/src/langy.php"; // Requiring Langy.
 
     $lang = new Langy;
 
