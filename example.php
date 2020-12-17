@@ -3,8 +3,6 @@
 // Requiring Langy.
 require_once __DIR__ . "/src/langy.php"; 
 
-use BenEgeDeniz\Langy;
-
 $lang = new Langy;
 
 // Setting the language file extension. (If you don't set it, this will default to "langy".)
